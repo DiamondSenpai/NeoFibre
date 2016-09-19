@@ -51,35 +51,6 @@ jQuery(document).ready(function($) {
 
 
 
-
-	/* Time Countdown 
-	-------------------------------------------------------------------*/
-	$('#time_countdown').countDown({
-        
-        // targetDate: {
-        //     'day': 19,
-        //     'month': 9,
-        //     'year': 2016,
-        //     'hour': 0,
-        //     'min': 0,
-        //     'sec': 0
-        // },
-        // omitWeeks: true
-
-         targetOffset: {
-            'day':      3,
-            'month':    0,
-            'year':     0,
-            'hour':     10,
-            'min':      48,
-            'sec':      20
-		},
-		omitWeeks: true
-
-	    });
-
-
-
 	/* Next Section   
 	-------------------------------------------------------------------*/
 	$('.next-section .go-to-about').click(function() {
