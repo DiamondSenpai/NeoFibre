@@ -555,14 +555,28 @@ a:focus{
 	text-align:center;
 	margin:0;
 }
-.time-until span{
+.time-until span {
 	color: #fff;
-	font-size:18px;
-	line-height:40px;
-	display:inline-block;
-	background-color:#3498db;
-	text-transform:uppercase;
-	padding:0px 25px;
+	font-size: 18px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #3498db;
+	text-transform: uppercase;
+	padding: 0px 25px;
+}
+.time-until span a{
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #3498db;
+	text-transform: uppercase;
+	padding: 0px 25px;
+	text-decoration: none;
+}
+.time-until span a:hover{
+	color: #fff;
+	text-shadow: 0 0 5px #fff;
 }
 /* 4 - Page Top Section End 
 ---------------------------------------------------------------------- */
